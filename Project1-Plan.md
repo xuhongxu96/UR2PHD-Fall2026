@@ -7,26 +7,25 @@
 
 ## Overview
 
-| Week             | Date               | Objective                     |
-| ---------------- | ------------------ | ----------------------------- |
-| [Week 1](#week-1) | Term begins - 9/18 | Setup development environment |
-| Week 2           | 9/21 - 9/25        |                               |
-| Week 3           | 9/28 - 10/2        |                               |
-| Week 4           | 10/5 - 10/9        |                               |
-| Week 5           | 10/12 - 10/16      |                               |
-| Week 6           | 10/19 - 10/23      |                               |
-| Week 7           | 10/26 - 10/30      |                               |
-| Week 8           | 11/2 - 11/6        |                               |
-| Week 9           | 11/9 - 11/13       |                               |
-| Week 10          | 11/16 - 11/20      |                               |
+| Week              | Date               | Objective                                                   |
+| ----------------- | ------------------ | ----------------------------------------------------------- |
+| [Week 1](#week-1) | Term begins - 9/18 | Setup development environment                               |
+| [Week 2](#week-2) | 9/21 - 9/25        | Learn the runtime; split the work                           |
+| [Week 3](#week-3) | 9/28 - 10/2        | Share and discuss design docs (Task 1)                      |
+| Week 4            | 10/5 - 10/9        | Develop the task 1                                          |
+| Week 5            | 10/12 - 10/16      | Finish and demo the task 1                                  |
+| Week 6            | 10/19 - 10/23      | Share and discuss design docs (Task 2)                      |
+| Week 7            | 10/26 - 10/30      | Develop the task 2                                          |
+| Week 8            | 11/2 - 11/6        | Continue the task 2                                         |
+| Week 9            | 11/9 - 11/13       | Continue the task 2                                         |
+| Week 10           | 11/16 - 11/20      | Finish the task 2; summarize and present the entire project |
 
 ## Week 1
 
-### Objective
+### Objectives
 
 1. Setup development environment
 2. Get familiar with `patch_llvm.py`
-    - You may want to read https://tree-sitter.github.io/tree-sitter/ first
 3. Be able to debug Python and C++ code
 
 ### Tasks
@@ -71,29 +70,63 @@
     - [ ] Print `(llvm::Value::ValueTy)I.getOperand(0)->SubclassID`
     - [ ] Print `(llvm::Value::ValueTy)I.getOperand(1)->SubclassID`
     - [ ] What are the value types of the two operands?
+- [ ] Read thru `patch_llvm.py`
+    - [ ] Skim through https://tree-sitter.github.io/tree-sitter/
+    - [ ] Which files in llvm-project are patched?
+    - [ ] How does it locate a function to patch?
+    - [ ] Categorize the types of patches in `patch_llvm.py` (Tips: find all occurrences of `edits`)
+    - [ ] Use VSCode to open `thirdparty/llvm-project` and look at the git diffs in Source Control view.
 
-```json
-{
-    "configurations": [
-        {
-            "type": "lldb-dap",
-            "request": "launch",
-            "name": "opt",
-            "program": "${workspaceFolder}/build/llvm-dbg/bin/opt",
-            "args": [
-                "-passes=instcombine",
-                "test.ll"
-            ],
-            "env": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "name": "patch_llvm.py",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${workspaceFolder}/patch_llvm.py",
-            "console": "integratedTerminal"
-        },
-    ]
-}
-```
+## Week 2
+
+### Objectives
+
+1. Learn the runtime (`fuzz_runtime.cpp` and `fuzz_runtime.h`)
+3. Split the work among team members
+
+### Tasks
+
+#### Get Familiar with the Runtime
+
+- [ ] Read thru `runtime/fuzz_runtime.h` and `runtime/fuzz_runtime.cpp`
+    - [ ] What is `CallScope`? How is it used?
+    - [ ] Where (which variable) are trace data stored?
+    - [ ] When will `start_iteration` and `dump_iteration_info` be called?
+
+#### Split the Work
+
+- [ ] Elect a team lead
+- [ ] Work in pairs or solo?
+- [ ] Split the work among team members
+    - Complete instrumentation
+      - Instrument `ConstantFolding` (Medium)
+    - Track more information
+      - Track `ValueTracking` information (Hard)
+      - Track remaining instructions in the worklist (Easy)
+      - Track activated conditions (Hard)
+    - Support other peephole passes
+      - `AggressiveInstCombine` (Easy)
+      - `VectorCombine` (Medium)
+    - Enhance user experience
+      - Clean up useless fields in the trace data (Easy)
+      - Output all newly added instructions instead of just the replacement instruction (Medium)
+
+At least one medium or hard task should be assigned to each group.
+I recommend that each group to take an easy task as well
+to familiarize themselves with the codebase at the beginning.
+
+## Week 3
+
+### Objectives
+
+1. Each subgroup presents their design doc
+2. Discuss and finalize the design doc
+
+### Tasks
+
+- [ ] Prepare a design doc for your first assigned task
+    - Slides are not necessary, but you can use them if you want to.
+- [ ] Present your design doc to the team
+- [ ] Discuss and finalize the design doc
+    - The gathering lasts for 1 hour, so each subgroup has 10-15 minutes to present their design doc,
+        and the rest of the time is for discussion.

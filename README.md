@@ -35,3 +35,7 @@ Recommended readings:
 - https://arxiv.org/abs/2607.02684
 - https://arxiv.org/abs/2607.02370
 - https://github.com/dtcxzyw/llvm-harness
+
+## Common Guidelines
+
+- All discussions happen in https://github.com/xuhongxu96/UR2PHD-Fall2026/discussions
