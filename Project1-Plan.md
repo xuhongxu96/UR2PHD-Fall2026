@@ -7,6 +7,8 @@
 
 ## Overview
 
+> Plans are subject to change.
+
 | Week              | Date               | Objective                                                   |
 | ----------------- | ------------------ | ----------------------------------------------------------- |
 | [Week 1](#week-1) | Term begins - 9/18 | Setup development environment                               |
@@ -19,6 +21,20 @@
 | Week 8            | 11/2 - 11/6        | Continue the task 2                                         |
 | Week 9            | 11/9 - 11/13       | Continue the task 2                                         |
 | Week 10           | 11/16 - 11/20      | Finish the task 2; summarize and present the entire project |
+
+## Resources
+
+### Code Repository
+
+- https://github.com/xuhongxu96/instcombine-instrumentor
+
+### Recommended Readings
+
+- https://mcyoung.xyz/2023/08/01/llvm-ir/
+- https://github.com/xuhongxu96/instcombine-instrumentor/blob/main/docs/USER_MANUAL.md
+- https://llvm.org/docs/LangRef.html
+- https://llvm.org/docs/InstCombineContributorGuide.html
+- https://llvm.org/docs/ProgrammersManual.html
 
 ## Week 1
 
@@ -86,30 +102,32 @@
 
 ### Tasks
 
-#### Get Familiar with the Runtime
+#### Get Familiar with the Runtime and LLVM IR
 
 - [ ] Read thru `runtime/fuzz_runtime.h` and `runtime/fuzz_runtime.cpp`
     - [ ] What is `CallScope`? How is it used?
     - [ ] Where (which variable) are trace data stored?
     - [ ] When will `start_iteration` and `dump_iteration_info` be called?
+- [ ] Read https://mcyoung.xyz/2023/08/01/llvm-ir/
+    - and other recommended readings in the "Recommended Readings" section above if you have time.
 
 #### Split the Work
 
-- [ ] Elect a team lead
+- [ ] Elect a team lead mainly for communication
 - [ ] Work in pairs or solo?
 - [ ] Split the work among team members
     - Complete instrumentation
-      - Instrument `ConstantFolding` (Medium)
+        - (1.1) Instrument `ConstantFolding` (Medium)
     - Track more information
-      - Track `ValueTracking` information (Hard)
-      - Track remaining instructions in the worklist (Easy)
-      - Track activated conditions (Hard)
+        - (2.1) Track `ValueTracking` information (Hard)
+        - (2.2) Track remaining instructions in the worklist (Easy)
+        - (2.3) Track activated conditions (Hard)
     - Support other peephole passes
-      - `AggressiveInstCombine` (Easy)
-      - `VectorCombine` (Medium)
+        - (3.1) `AggressiveInstCombine` (Easy)
+        - (3.2) `VectorCombine` (Medium)
     - Enhance user experience
-      - Clean up useless fields in the trace data (Easy)
-      - Output all newly added instructions instead of just the replacement instruction (Medium)
+        - (4.1) Clean up useless fields in the trace data (Easy)
+        - (4.2) Output all newly added instructions instead of just the replacement instruction (Medium)
 
 At least one medium or hard task should be assigned to each group.
 I recommend that each group to take an easy task as well
@@ -119,7 +137,7 @@ to familiarize themselves with the codebase at the beginning.
 
 ### Objectives
 
-1. Each subgroup presents their design doc
+1. Each group presents their design doc
 2. Discuss and finalize the design doc
 
 ### Tasks
@@ -128,5 +146,5 @@ to familiarize themselves with the codebase at the beginning.
     - Slides are not necessary, but you can use them if you want to.
 - [ ] Present your design doc to the team
 - [ ] Discuss and finalize the design doc
-    - The gathering lasts for 1 hour, so each subgroup has 10-15 minutes to present their design doc,
+    - The gathering lasts for 1 hour, so each group has 10-15 minutes to present their design doc,
         and the rest of the time is for discussion.

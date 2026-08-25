@@ -2,6 +2,11 @@
 
 [What is UR2PHD?](https://uwaterloo.ca/women-in-computer-science/programs-events/early-undergraduate-research-experience-program-erepur2phd)
 
+## Common Guidelines
+
+- All discussions happen in https://github.com/xuhongxu96/UR2PHD-Fall2026/discussions
+- All code changes should be submitted as pull requests (PRs). Small PRs are preferred.
+
 ## Project 1: A Compiler Optimization Observatory — Instrumenting LLVM at Scale
 
 [Plan](Project1-Plan.md)
@@ -33,9 +38,4 @@ observable loop.
 
 Recommended readings:
 - https://arxiv.org/abs/2607.02684
-- https://arxiv.org/abs/2607.02370
 - https://github.com/dtcxzyw/llvm-harness
-
-## Common Guidelines
-
-- All discussions happen in https://github.com/xuhongxu96/UR2PHD-Fall2026/discussions
