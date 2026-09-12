@@ -67,7 +67,7 @@ In the later phase of the project, I may be able to provide you an API Key to ac
 - [ ] Connect to the remote dev server (required)
     - [ ] Configure SSH keys
     - [ ] Test SSH connection
-    - [ ] Clone the llvm-harness repo
+    - [ ] Clone the llvm-harness repo and **checkout the `ppc64le` branch**
 - [ ] Local development environment setup (optional)
     - [ ] Clone the llvm-harness repo
     - Docker (Recommended)
@@ -78,7 +78,10 @@ In the later phase of the project, I may be able to provide you an API Key to ac
         - [ ] Install the dependencies manually (very time-consuming)
     - Local (Strongly NOT Recommended)
         - [ ] Install the dependencies manually (very time-consuming)
-- [ ] Run Docker image
+- [ ] Run Docker image (`llvm-harness` is already built on the server)
+    - [ ] Start a tmux session: `tmux new -s <session name>` (to keep it running after logging out)
+    - [ ] change directory to the llvm-harness repo
+    - [ ] Start a container inside the tmux session: `docker run --rm -it -v $(pwd):/llvm-harness --cap-add=SYS_PTRACE --security-opt seccomp=unconfined llvm-harness:latest` (it could take a while)
     - [ ] Configure the API Key to access the LLM endpoint
     - [ ] Run the harness with a small example
 - [ ] Clone the benchmark repo (https://arxiv.org/abs/2607.02684)
