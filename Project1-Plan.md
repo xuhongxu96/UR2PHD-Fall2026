@@ -2,8 +2,8 @@
 
 - Kaibo Ma
 - Sami Hassan
-- Tyler Zeng
 - Fiona Cai
+- Peter Rong (TBD)
 
 ## Overview
 
