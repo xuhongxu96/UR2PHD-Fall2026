@@ -14,10 +14,10 @@
 | [Week 1](#week-1) | Term begins - 9/18 | Setup development environment                               |
 | [Week 2](#week-2) | 9/21 - 9/25        | Learn the runtime; split the work                           |
 | [Week 3](#week-3) | 9/28 - 10/2        | Share and discuss design docs (Task 1)                      |
-| Week 4            | 10/5 - 10/9        | Develop the task 1                                          |
-| Week 5            | 10/12 - 10/16      | Finish and demo the task 1                                  |
-| Week 6            | 10/19 - 10/23      | Share and discuss design docs (Task 2)                      |
-| Week 7            | 10/26 - 10/30      | Develop the task 2                                          |
+| Week 4 (Meet Online)           | 10/5 - 10/9        | Develop the task 1                                          |
+| Week 5 (No Meeting)            | 10/12 - 10/16      | Continue the task 1                                  |
+| Week 6            | 10/19 - 10/23      | Demo the task 1                      |
+| Week 7            | 10/26 - 10/30      | Share and discuss design docs (Task 2)                                          |
 | Week 8            | 11/2 - 11/6        | Continue the task 2                                         |
 | Week 9            | 11/9 - 11/13       | Continue the task 2                                         |
 | Week 10           | 11/16 - 11/20      | Finish the task 2; summarize and present the entire project |
