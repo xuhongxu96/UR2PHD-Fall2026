@@ -3,7 +3,7 @@
 - Kaibo Ma
 - Sami Hassan
 - Fiona Cai
-- Peter Rong (TBD)
+- Peter Rong
 
 ## Overview
 
