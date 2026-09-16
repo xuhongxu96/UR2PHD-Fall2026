@@ -3,7 +3,7 @@
 - Aarnav Thite
 - Jinay Desai
 - Yulchan Shin
-- Rohan Mandhotra (TBD)
+- Rohan Mandhotra
 
 ## Overview
 
