@@ -14,8 +14,8 @@
 | [Week 1](#week-1) | Term begins - 9/18 | Setup development environment; select papers                      |
 | [Week 2](#week-2) | 9/21 - 9/25        | Paper presentation; assign tasks                                  |
 | [Week 3](#week-3) | 9/28 - 10/2        | Share and discuss design docs (Task 1)                            |
-| Week 4            | 10/5 - 10/9        | Develop the task 1                                                |
-| Week 5            | 10/12 - 10/16      | Joint debugging and evaluate the minimal harness                  |
+| Week 4 (Meet Online)           | 10/5 - 10/9        | Develop the task 1                                                |
+| Week 5 (No Meeting)           | 10/12 - 10/16      | Joint debugging and evaluate the minimal harness                  |
 | Week 6            | 10/19 - 10/23      | Present the results; brainstorm tool ideas and assign next tasks  |
 | Week 7            | 10/26 - 10/30      | Share and discuss design docs (Task 2)                            |
 | Week 8            | 11/2 - 11/6        | Develop the task 2                                                |
