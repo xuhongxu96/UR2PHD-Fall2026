@@ -133,12 +133,25 @@ At least one medium or hard task should be assigned to each group.
 I recommend that each group to take an easy task as well
 to familiarize themselves with the codebase at the beginning.
 
+#### Paper Reading
+
+There will be a presentation on Oct.9: *Readings that Piqued your Curiosities*.
+
+Some recommended papers are listed below:
+
+- https://dl.acm.org/doi/epdf/10.1145/2813885.2737965
+- https://dl.acm.org/doi/pdf/10.1145/3453483.3454030
+- https://dl.acm.org/doi/epdf/10.1145/3779212.3790184
+- https://dl.acm.org/doi/epdf/10.1145/2884781.2884809
+- https://dl.acm.org/doi/epdf/10.1145/2737924.2737959
+
 ## Week 3
 
 ### Objectives
 
 1. Each group presents their design doc
 2. Discuss and finalize the design doc
+3. Practice the paper presentation
 
 ### Tasks
 
