@@ -84,14 +84,12 @@ In the later phase of the project, I may be able to provide you an API Key to ac
     - [ ] Start a container inside the tmux session: `docker run --rm -it -v $(pwd):/llvm-harness --cap-add=SYS_PTRACE --security-opt seccomp=unconfined llvm-harness:latest` (it could take a while)
     - [ ] Configure the API Key to access the LLM endpoint
     - [ ] Run the harness with a small example
-- [ ] Clone the benchmark repo (https://arxiv.org/abs/2607.02684)
 
 #### Paper Selection
 
 In the next week's meeting, each group will present one paper.
 Please read the papers and prepare a short presentation (10 minutes + 5 minutes for Q&A) to summarize the approach, the experiments, and the results. You can also discuss your thoughts on the paper and any questions you may have.
 
-- [ ] Elect a team lead mainly for communication
 - [ ] Form two groups
 - [ ] Each group selects one paper to present
     - https://arxiv.org/abs/2603.20075
@@ -112,6 +110,8 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
         - References: [autofix/mini.py](https://github.com/xuhongxu96/llvm-harness/blob/main/autofix/mini.py) and [autoreview/archer.py](https://github.com/xuhongxu96/llvm-harness/blob/main/autoreview/archer.py)
     2. Create an evaluation script to run the harness on the benchmark and collect the generated patches
         - References: `<benchmark_repo>/pull_requests/*/metadata.json` and `<benchmark_repo>/scripts/agent/run.ts`
+        - [ ] Clone the benchmark repo (https://arxiv.org/abs/2607.02684)
+           - Add Collaborators
 
 ## Week 3
 
