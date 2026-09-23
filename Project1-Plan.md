@@ -139,11 +139,11 @@ There will be a presentation on Oct.9: *Readings that Piqued your Curiosities*.
 
 Some recommended papers are listed below:
 
-- https://dl.acm.org/doi/epdf/10.1145/2813885.2737965
+- https://dl.acm.org/doi/epdf/10.1145/2813885.2737965  -- Fiona
 - https://dl.acm.org/doi/pdf/10.1145/3453483.3454030
-- https://dl.acm.org/doi/epdf/10.1145/3779212.3790184
-- https://dl.acm.org/doi/epdf/10.1145/2884781.2884809
-- https://dl.acm.org/doi/epdf/10.1145/3062341.3062343
+- https://dl.acm.org/doi/epdf/10.1145/3779212.3790184  -- Peter
+- https://dl.acm.org/doi/epdf/10.1145/2884781.2884809 -- Sami
+- https://dl.acm.org/doi/epdf/10.1145/3062341.3062343 
 - https://dl.acm.org/doi/epdf/10.1145/3808250
 
 ## Week 3
