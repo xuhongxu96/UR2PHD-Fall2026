@@ -117,16 +117,16 @@
 - [ ] Work in pairs or solo?
 - [ ] Split the work among team members
     - Complete instrumentation
-        - (1.1) Instrument `ConstantFolding` (Medium)
+        - (1.1) Instrument `ConstantFolding` (Medium)  --- Fiona
     - Track more information
-        - (2.1) Track `ValueTracking` information (Hard)
-        - (2.2) Track remaining instructions in the worklist (Easy)
+        - (2.1) Track `ValueTracking` information (Hard) --- Peter
+        - (2.2) Track remaining instructions in the worklist (Easy) --- Fiona
         - (2.3) Track activated conditions (Hard)
     - Support other peephole passes
-        - (3.1) `AggressiveInstCombine` (Easy)
-        - (3.2) `VectorCombine` (Medium)
+        - (3.1) `AggressiveInstCombine` (Easy) --- Kaibo
+        - (3.2) `VectorCombine` (Medium) --- Kaibo
     - Enhance user experience
-        - (4.1) Clean up useless fields in the trace data (Easy)
+        - (4.1) Clean up useless fields in the trace data (Easy)  --- Sami
         - (4.2) Output all newly added instructions instead of just the replacement instruction (Medium)
 
 At least one medium or hard task should be assigned to each group.
