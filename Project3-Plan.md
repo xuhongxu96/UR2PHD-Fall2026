@@ -128,12 +128,12 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
     - 1 or 2 papers?
     - Share my sample slides for reference
 - [ ] Task 1: Minimal Agent Framework
-      - Strategy A: strip out irrelevant components (env setup, specialized debugging tools, etc.) from llvm-harness (autofix/mini or autoreview/archer).
-      - Strategy B: integrate basic domain-specific tools (alive2/etc.) to mini-SWE-agent.
-          - Note: Strategy B offers a cleaner codebase and aligns directly with current academic baselines.
+    - Strategy A: strip out irrelevant components (env setup, specialized debugging tools, etc.) from llvm-harness (autofix/mini or autoreview/archer).
+    - Strategy B: integrate basic domain-specific tools (alive2/etc.) to mini-SWE-agent.
+       - Note: Strategy B offers a cleaner codebase and aligns directly with current academic baselines.
 - [ ] Task 2: Evaluation Framework
-      - Reuse the existing dataset
-      - Develop driver scripts to orchestrate agent runs, monitor execution, and log core metrics. (use existing scripts for reference only)
+    - Reuse the existing dataset
+    - Develop driver scripts to orchestrate agent runs, monitor execution, and log core metrics. (use existing scripts for reference only)
 - [ ] Task Assignment
     - Aarnav Thite
     - Jinay Desai
