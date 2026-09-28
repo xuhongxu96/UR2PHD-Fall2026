@@ -117,10 +117,44 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 
 ### Objectives
 
-1. Each group presents their design doc
-2. Discuss and finalize the design doc
+1. Finalize presentation logistics
+2. Go thru details for both tasks
+3. Assign tasks to each member
 
 ### Tasks
+
+- [ ] Presentation Planning
+    - 5 min
+    - 1 or 2 papers?
+    - Share my sample slides for reference
+- [ ] Task 1: Minimal Agent Framework
+      - Strategy A: strip out irrelevant components (env setup, specialized debugging tools, etc.) from llvm-harness (autofix/mini or autoreview/archer).
+      - Strategy B: integrate basic domain-specific tools (alive2/etc.) to mini-SWE-agent.
+          - Note: Strategy B offers a cleaner codebase and aligns directly with current academic baselines.
+- [ ] Task 2: Evaluation Framework
+      - Reuse the existing dataset
+      - Develop driver scripts to orchestrate agent runs, monitor execution, and log core metrics. (use existing scripts for reference only)
+- [ ] Task Assignment
+    - Aarnav Thite
+    - Jinay Desai
+    - Yulchan Shin
+    - Rohan Mandhotra
+- [ ] Design Doc Template
+    - Title
+    - Introduction (What's the task): 3-5 sentences
+    - Background/Motivation (Why do we want this): 5-10 sentences. Compare with some related work (llvm-harness/PeepholeBench).
+    - Proposed design (How)
+        - Overview (of components and their interactions)
+        - Interface Design (e.g., the commandline interface to run the agent, the input/output schema)
+        - Implementation (tech stack for each component)
+        - Plan (break down to tasks; set milestones and target dates)
+    - Open Questions/Risks (which we will primarily discuss next week)
+
+## Week 4
+
+1. Discuss and finalize design docs
+
+### Objectives
 
 - [ ] Prepare a design doc for your assigned task
     - Slides are not necessary, but you can use them if you want to.
