@@ -129,6 +129,7 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
     - Share my sample slides for reference
 - [ ] Task 1: Minimal Agent Framework
     - Strategy A: strip out irrelevant components (env setup, specialized debugging tools, etc.) from llvm-harness (autofix/mini or autoreview/archer).
+       - Note: Strategy A reuses the dev environment we setup before.
     - Strategy B: integrate basic domain-specific tools (alive2/etc.) to mini-SWE-agent.
        - Note: Strategy B offers a cleaner codebase and aligns directly with current academic baselines.
 - [ ] Task 2: Evaluation Framework
