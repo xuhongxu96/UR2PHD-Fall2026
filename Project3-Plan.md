@@ -136,10 +136,10 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
     - Reuse the existing dataset
     - Develop driver scripts to orchestrate agent runs, monitor execution, and log core metrics. (use existing scripts for reference only)
 - [ ] Task Assignment
-    - Aarnav Thite
-    - Jinay Desai
-    - Yulchan Shin
-    - Rohan Mandhotra
+    - Jinay Desai (Task 1)
+    - Rohan Mandhotra (Task 1)
+    - Aarnav Thite (Task 2)
+    - Yulchan Shin (Task 2)
 - [ ] Design Doc Template
     - Title
     - Introduction (What's the task): 3-5 sentences
