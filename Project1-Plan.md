@@ -167,5 +167,10 @@ Some recommended papers are listed below:
 
 ### Objectives
 
-1. Report the progress on Task 1
-2. Discuss any problems encountered while developing the features and any experience you want to share
+1. Share progress on Task 1.
+2. Discuss any challenges encountered during feature development and share lessons learned.
+
+### Agenda
+
+- [ ] Individual progress updates
+- [ ] Open discussion
