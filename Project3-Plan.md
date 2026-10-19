@@ -13,14 +13,14 @@
 | ----------------- | ------------------ | ----------------------------------------------------------------- |
 | [Week 1](#week-1) | Term begins - 9/18 | Setup development environment; select papers                      |
 | [Week 2](#week-2) | 9/21 - 9/25        | Paper presentation; assign tasks                                  |
-| [Week 3](#week-3) | 9/28 - 10/2        | Share and discuss design docs (Task 1)                            |
-| Week 4 (Meet Online)           | 10/5 - 10/9        | Develop the task 1                                                |
-| Week 5 (No Meeting)           | 10/12 - 10/16      | Joint debugging and evaluate the minimal harness                  |
-| Week 6            | 10/19 - 10/23      | Present the results; brainstorm tool ideas and assign next tasks  |
-| Week 7            | 10/26 - 10/30      | Share and discuss design docs (Task 2)                            |
-| Week 8            | 11/2 - 11/6        | Develop the task 2                                                |
-| Week 9            | 11/9 - 11/13       | Evaluate the harness with tools                                   |
-| Week 10           | 11/16 - 11/20      | Finish ablation studies; summarize and present the entire project |
+| [Week 3](#week-3) | 9/28 - 10/2        | Presentation preparation                            |
+| [Week 4](#week-4) (Meet Online)           | 10/5 - 10/9        | Presentation preparation                                                |
+| Week 5 (No Meeting)           | 10/12 - 10/16      | Draft design docs                  |
+| [Week 6](#week-6)            | 10/19 - 10/23      | Present the design docs; start working on task 1 |
+| Week 7            | 10/26 - 10/30      | Working on task 1                            |
+| Week 8            | 11/2 - 11/6        | Progress report preparation                                                |
+| Week 9            | 11/9 - 11/13       | Finalize task 1                                  |
+| Week 10           | 11/16 - 11/20      | Brainstorming on task 2 |
 
 ## Resources
 
@@ -152,6 +152,10 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
     - Open Questions/Risks (which we will primarily discuss next week)
 
 ## Week 4
+
+1. Finalize the presentation plan
+
+## Week 6
 
 1. Discuss and finalize design docs
 
