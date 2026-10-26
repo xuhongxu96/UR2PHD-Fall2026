@@ -153,13 +153,17 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 
 ## Week 4
 
+### Objectives
+
 1. Finalize the presentation plan
 
 ## Week 6
 
+### Objectives
+
 1. Discuss and finalize design docs
 
-### Objectives
+### Tasks
 
 - [ ] Prepare a design doc for your assigned task
     - Slides are not necessary, but you can use them if you want to.
@@ -170,11 +174,13 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 
 ## Week 7
 
+### Objectives
+
 1. Discuss and finalize the input/output schema
 2. Review current implementation progress
 3. Discuss the presentation plan
 
-### Objectives
+### Tasks
 
 - [ ] Finalize the input/output schema
 - [ ] Create GitHub issues to track implementation progress
