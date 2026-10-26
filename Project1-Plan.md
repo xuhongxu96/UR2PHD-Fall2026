@@ -17,7 +17,7 @@
 | Week 4 (No Meeting)           | 10/5 - 10/9        | Develop the task 1                                          |
 | Week 5 (No Meeting)            | 10/12 - 10/16      | Continue the task 1                                  |
 | [Week 6](#week-6)            | 10/19 - 10/23      | Continue the task 1                      |
-| Week 7            | 10/26 - 10/30      | Demo the task 1                                          |
+| [Week 7](#week-7)            | 10/26 - 10/30      | Continue the task 1/2; plan for progress report                                          |
 | Week 8            | 11/2 - 11/6        | Prepare progress report                                         |
 | Week 9            | 11/9 - 11/13       | Share and discuss design docs (Task 2)                                         |
 | Week 10           | 11/16 - 11/20      | Work on task 2 |
@@ -117,13 +117,13 @@
 - [ ] Work in pairs or solo?
 - [ ] Split the work among team members
     - Complete instrumentation
-        - (1.1) Instrument `ConstantFolding` (Medium)  --- Fiona
+        - [x] (1.1) Instrument `ConstantFolding` (Medium)  --- Fiona
     - Track more information
         - (2.1) Track `ValueTracking` information (Hard) --- Peter
         - (2.2) Track remaining instructions in the worklist (Easy) --- Fiona
         - (2.3) Track activated conditions (Hard)
     - Support other peephole passes
-        - (3.1) `AggressiveInstCombine` (Easy) --- Kaibo
+        - [x] (3.1) `AggressiveInstCombine` (Easy) --- Kaibo
         - (3.2) `VectorCombine` (Medium) --- Kaibo
     - Enhance user experience
         - (4.1) Clean up useless fields in the trace data (Easy)  --- Sami
@@ -170,7 +170,25 @@ Some recommended papers are listed below:
 1. Share progress on Task 1.
 2. Discuss any challenges encountered during feature development and share lessons learned.
 
-### Agenda
+### Tasks
 
 - [ ] Individual progress updates
 - [ ] Open discussion
+
+## Week 7
+
+### Objectives
+
+1. Share progress on Task 1.
+2. Discuss presentation plan.
+
+### Tasks
+
+- [ ] Individual progress updates and open discussion
+- [ ] Plan the presentation (Title slide + 4 content slides):
+    - Slide 1: 
+    - Slide 2:
+    - Slide 3:
+    - Slide 4:
+
+
