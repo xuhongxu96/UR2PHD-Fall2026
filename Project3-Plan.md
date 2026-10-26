@@ -17,7 +17,7 @@
 | [Week 4](#week-4) (Meet Online)           | 10/5 - 10/9        | Presentation preparation                                                |
 | Week 5 (No Meeting)           | 10/12 - 10/16      | Draft design docs                  |
 | [Week 6](#week-6)            | 10/19 - 10/23      | Present the design docs; start working on task 1 |
-| Week 7            | 10/26 - 10/30      | Working on task 1                            |
+| [Week 7](#week-7)            | 10/26 - 10/30      | Working on task 1                            |
 | Week 8            | 11/2 - 11/6        | Progress report preparation                                                |
 | Week 9            | 11/9 - 11/13       | Finalize task 1                                  |
 | Week 10           | 11/16 - 11/20      | Brainstorming on task 2 |
@@ -167,3 +167,20 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 - [ ] Discuss and finalize the design doc
     - The gathering lasts for 1 hour, so each group has 10-15 minutes to present their design doc,
         and the rest of the time is for discussion.
+
+## Week 7
+
+1. Discuss and finalize the input/output schema
+2. Review current implementation progress
+3. Discuss the presentation plan
+
+### Objectives
+
+- [ ] Finalize the input/output schema
+- [ ] Create GitHub issues to track implementation progress
+- [ ] Plan the presentation (Title slide + 4 content slides):
+  - **Slides 1–2:** Agent
+  - **Slides 3–4:** Benchmark
+  - **Speaker split options:** 
+    - *By phase:* One person covers design, the other covers the plan.
+    - *By subtask:* Each person covers both design and plan for their respective subtask.
