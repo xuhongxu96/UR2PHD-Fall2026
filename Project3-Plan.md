@@ -185,8 +185,11 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 - [ ] Finalize the input/output schema
 - [ ] Create GitHub issues to track implementation progress
 - [ ] Plan the presentation (Title slide + 4 content slides):
-  - **Slides 1–2:** Agent
-  - **Slides 3–4:** Benchmark
-  - **Speaker split options:** 
-    - *By phase:* One person covers design, the other covers the plan.
-    - *By subtask:* Each person covers both design and plan for their respective subtask.
+   - Problem and motivation: What is the problem you are solving? - Rohan
+   - Technical challenge: What is the technical challenge involved in solving this problem? Why is this an interesting computing challenge? - Aarnav
+   - Approach: What is the approach you are taking to solve this problem? - Jinay
+   - Outcomes: What is the desired outcome by the end of the term? - Yulchan
+
+## Week 8
+
+1. Rehearse the presentation
