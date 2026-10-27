@@ -192,4 +192,13 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 
 ## Week 8
 
+### Objectives
+
 1. Rehearse the presentation
+2. Start to use Kanban
+
+### Tasks
+
+1. Present the progress report
+2. Collect GitHub usernames to assign issues
+3. Go through the work items
