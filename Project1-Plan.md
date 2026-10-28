@@ -186,9 +186,8 @@ Some recommended papers are listed below:
 
 - [ ] Individual progress updates and open discussion
 - [ ] Plan the presentation (Title slide + 4 content slides):
-    - Slide 1: 
-    - Slide 2:
-    - Slide 3:
-    - Slide 4:
-
+    - Problem and motivation: What is the problem you are solving? -- Fiona
+    - Technical challenge: What is the technical challenge involved in solving this problem? Why is this an interesting computing challenge? -- Peter
+    - Approach: What is the approach you are taking to solve this problem? -- Kaibo
+    - Outcomes: What is the desired outcome by the end of the term? -- Sami
 
