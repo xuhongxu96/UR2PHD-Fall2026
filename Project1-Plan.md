@@ -18,7 +18,7 @@
 | Week 5 (No Meeting)            | 10/12 - 10/16      | Continue the task 1                                  |
 | [Week 6](#week-6)            | 10/19 - 10/23      | Continue the task 1                      |
 | [Week 7](#week-7)            | 10/26 - 10/30      | Continue the task 1/2; plan for progress report                                          |
-| Week 8            | 11/2 - 11/6        | Prepare progress report                                         |
+| [Week 8](#week-8)            | 11/2 - 11/6        | Prepare progress report                                         |
 | Week 9            | 11/9 - 11/13       | Share and discuss design docs (Task 2)                                         |
 | Week 10           | 11/16 - 11/20      | Work on task 2 |
 
@@ -189,5 +189,18 @@ Some recommended papers are listed below:
     - Problem and motivation: What is the problem you are solving? -- Fiona
     - Technical challenge: What is the technical challenge involved in solving this problem? Why is this an interesting computing challenge? -- Peter
     - Approach: What is the approach you are taking to solve this problem? -- Kaibo
+
+## Week 8
+
+### Objectives
+
+1. Share progress
+2. Practice the presentation?
+
+### Tasks
+
+- [ ] Individual progress updates and open discussion
+- [ ] Practice the presentation
+- [ ] https://conf.researchr.org/track/fse-2027/fse-2027-demonstrations (DDL: 26 Jan 27)
     - Outcomes: What is the desired outcome by the end of the term? -- Sami
 
