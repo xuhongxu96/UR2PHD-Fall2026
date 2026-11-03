@@ -189,6 +189,7 @@ Some recommended papers are listed below:
     - Problem and motivation: What is the problem you are solving? -- Fiona
     - Technical challenge: What is the technical challenge involved in solving this problem? Why is this an interesting computing challenge? -- Peter
     - Approach: What is the approach you are taking to solve this problem? -- Kaibo
+    - Outcomes: What is the desired outcome by the end of the term? -- Sami
 
 ## Week 8
 
@@ -202,5 +203,4 @@ Some recommended papers are listed below:
 - [ ] Individual progress updates and open discussion
 - [ ] Practice the presentation
 - [ ] https://conf.researchr.org/track/fse-2027/fse-2027-demonstrations (DDL: 26 Jan 27)
-    - Outcomes: What is the desired outcome by the end of the term? -- Sami
 
