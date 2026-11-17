@@ -18,9 +18,9 @@
 | Week 5 (No Meeting)           | 10/12 - 10/16      | Draft design docs                  |
 | [Week 6](#week-6)            | 10/19 - 10/23      | Present the design docs; start working on task 1 |
 | [Week 7](#week-7)            | 10/26 - 10/30      | Working on task 1; plan for progress report                            |
-| Week 8            | 11/2 - 11/6        | Progress report preparation                                                |
-| Week 9            | 11/9 - 11/13       | Finalize task 1                                  |
-| Week 10           | 11/16 - 11/20      | Brainstorming on task 2 |
+| [Week 8](#week-8)            | 11/2 - 11/6        | Progress report preparation                                                |
+| Week 9 (No Meeting)            | 11/9 - 11/13       | Finalize task 1                                  |
+| [Week 10](#week-10)           | 11/16 - 11/20      | Brainstorming on task 2 |
 
 ## Resources
 
@@ -202,3 +202,9 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 1. Present the progress report
 2. Collect GitHub usernames to assign issues
 3. Go through the work items
+
+## Week 10
+
+### Tasks
+
+1. Go through the work items
