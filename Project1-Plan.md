@@ -19,8 +19,9 @@
 | [Week 6](#week-6)            | 10/19 - 10/23      | Continue the task 1                      |
 | [Week 7](#week-7)            | 10/26 - 10/30      | Continue the task 1/2; plan for progress report                                          |
 | Week 8 (No Meeting)            | 11/2 - 11/6        | Prepare progress report                                         |
-| [Week 9](#week-9)            | 11/9 - 11/13       | Share and discuss design docs (Task 2)                                         |
-| [Week 10](#week-10)           | 11/16 - 11/20      | Work on task 2 |
+| [Week 9](#week-9)            | 11/9 - 11/13       | Discuss next steps (new arch)                                         |
+| [Week 10](#week-10)           | 11/16 - 11/20      | Assign new tasks |
+| [Week 11](#week-11)           | 11/23 - 11/27      | 1:1 meetings |
 
 ## Resources
 
@@ -210,3 +211,7 @@ Some recommended papers are listed below:
 
 - [ ] Discuss the evaluation plan
 - [ ] Pick up a task
+
+## Week 11
+
+- [ ] 1:1 Meetings
