@@ -15,12 +15,13 @@
 | [Week 2](#week-2) | 9/21 - 9/25        | Paper presentation; assign tasks                                  |
 | [Week 3](#week-3) | 9/28 - 10/2        | Presentation preparation                            |
 | [Week 4](#week-4) (Meet Online)           | 10/5 - 10/9        | Presentation preparation                                                |
-| Week 5 (No Meeting)           | 10/12 - 10/16      | Draft design docs                  |
+| Week 5 (No Meeting)           | 10/12 - 10/16      | -                  |
 | [Week 6](#week-6)            | 10/19 - 10/23      | Present the design docs; start working on task 1 |
 | [Week 7](#week-7)            | 10/26 - 10/30      | Working on task 1; plan for progress report                            |
 | [Week 8](#week-8)            | 11/2 - 11/6        | Progress report preparation                                                |
-| Week 9 (No Meeting)            | 11/9 - 11/13       | Finalize task 1                                  |
-| [Week 10](#week-10)           | 11/16 - 11/20      | Brainstorming on task 2 |
+| Week 9 (No Meeting)            | 11/9 - 11/13       | -                                 |
+| [Week 10](#week-10)           | 11/16 - 11/20      | Continue the tasks |
+| [Week 11](#week-11)           | 11/23 - 11/27      | Continue the tasks |
 
 ## Resources
 
@@ -208,3 +209,10 @@ Please read the papers and prepare a short presentation (10 minutes + 5 minutes 
 ### Tasks
 
 1. Go through the work items
+
+## Week 11
+
+### Tasks
+
+1. Go through the work items
+2. Arrange 1:1 meetings
