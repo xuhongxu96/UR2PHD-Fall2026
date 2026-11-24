@@ -1,6 +1,6 @@
 ## Students
 
-- Kaibo Ma
+- beef
 - Sami Hassan
 - Fiona Cai
 - Peter Rong
@@ -124,8 +124,8 @@
         - (2.2) Track remaining instructions in the worklist (Easy) --- Fiona
         - (2.3) Track activated conditions (Hard)
     - Support other peephole passes
-        - [x] (3.1) `AggressiveInstCombine` (Easy) --- Kaibo
-        - (3.2) `VectorCombine` (Medium) --- Kaibo
+        - [x] (3.1) `AggressiveInstCombine` (Easy) --- beef
+        - (3.2) `VectorCombine` (Medium) --- beef
     - Enhance user experience
         - (4.1) Clean up useless fields in the trace data (Easy)  --- Sami
         - (4.2) Output all newly added instructions instead of just the replacement instruction (Medium)
@@ -189,7 +189,7 @@ Some recommended papers are listed below:
 - [ ] Plan the presentation (Title slide + 4 content slides):
     - Problem and motivation: What is the problem you are solving? -- Fiona
     - Technical challenge: What is the technical challenge involved in solving this problem? Why is this an interesting computing challenge? -- Peter
-    - Approach: What is the approach you are taking to solve this problem? -- Kaibo
+    - Approach: What is the approach you are taking to solve this problem? -- beef
     - Outcomes: What is the desired outcome by the end of the term? -- Sami
 
 ## Week 9
